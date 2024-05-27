@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестирование</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- <div class="reg" id="reg">
+            <h1 class="title-reg">Впишите ваше имя, чтобы начать тест</h1>
+            <p>Ваше имя:<input type="text" name="" class="input" id="input"><br></p>
+            <button class="btnst" id="btnst">Начать</button>
+        </div> -->
+        <div class="quiz-container">
+            <h1 class="title">Проверка усвоенного материала</h1>
+
+            <div class="question" id="question">
+                <!-- Текущий вопрос -->
+                Вопрос 1: Сколько лет Python
+            </div>
+            <div class="options" id="options">
+                <!-- Здесь будут варианты ответа -->
+                <button onclick="nextQuestion('Функция')" class="btn">10</button>
+                <button onclick="nextQuestion('Дроби')" class="btn">2</button>
+                <button onclick="nextQuestion('Степени')" class="btn">67</button>
+                <button onclick="nextQuestion('+ и - числа')" class="btn">33</button>
+            </div>
+            <div class="result" id="result">
+                <!-- Здесь будут отображаться результаты тестов -->
+            </div>
+            <div class="dropdown">
+                <!-- <button class="dropbtn">Поддержка</button>
+                <div class="dropdown-content">
+                    <a href="#">Напишите нам на почту delfa72.ru</a> -->
+                </div>
+                <div class="mark" id="mark">
+                    <!-- Оценка прохождения теста -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
